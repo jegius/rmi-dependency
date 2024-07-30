@@ -2,8 +2,10 @@ package com.edu.dto;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
-public class BookRMI {
+public class BookRMI implements Serializable {
 
     private Long id;
 
